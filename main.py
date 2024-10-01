@@ -162,7 +162,7 @@ html = """
         </div>
 
         <script>
-            const ws = new WebSocket("ws://localhost:8000/ws");
+            const ws = new WebSocket("ws://https://wonderlabot.onrender.com/ws");
 
             ws.onmessage = function(event) {
                 setTimeout(function() {
